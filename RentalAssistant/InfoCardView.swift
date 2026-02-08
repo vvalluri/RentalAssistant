@@ -14,7 +14,7 @@ struct InfoCardView: View {
                 
                 Text(objectInfo.title)
                     .font(.headline)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.black)
                 
                 Spacer()
                 
@@ -25,7 +25,7 @@ struct InfoCardView: View {
                 }) {
                     Image(systemName: isExpanded ? "chevron.up.circle.fill" : "chevron.down.circle.fill")
                         .font(.title3)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.gray)
                 }
             }
             .padding()
@@ -36,7 +36,7 @@ struct InfoCardView: View {
                 ScrollView {
                     Text(objectInfo.instructions)
                         .font(.body)
-                        .foregroundColor(.primary)
+                        .foregroundColor(.black)
                         .multilineTextAlignment(.leading)
                         .padding()
                 }

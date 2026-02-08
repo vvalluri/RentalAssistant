@@ -9,10 +9,11 @@ import ARKit
 class ARViewModel: ObservableObject {
     @Published var detectedObject: DetectedObjectInfo?
     @Published var isDetecting: Bool = false
+    @Published var debugLabel: String = ""
 
     #if os(iOS)
     private var visionRequests = [VNRequest]()
-    private let confidenceThreshold: Float = 0.3
+    private let confidenceThreshold: Float = 0.05
 
     private var detectionDebouncer: AnyCancellable?
     private var lastDetectionTime: Date = Date()

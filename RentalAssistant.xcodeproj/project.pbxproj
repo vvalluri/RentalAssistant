@@ -21,7 +21,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C12877522F2F2B000037F1CD /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		C12877522F2F2B000037F1CD /* Exceptions for "RentalAssistant" folder in "RentalAssistant" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -34,7 +34,7 @@
 		C12877302F2F22690037F1CD /* RentalAssistant */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C12877522F2F2B000037F1CD /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+				C12877522F2F2B000037F1CD /* Exceptions for "RentalAssistant" folder in "RentalAssistant" target */,
 			);
 			path = RentalAssistant;
 			sourceTree = "<group>";
@@ -288,6 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5973745HF;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -331,6 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5973745HF;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
